@@ -1,0 +1,87 @@
+body, p, h1, h2, h3, h4, h5{
+	font-weight: 300 !important;
+}
+.hide{
+	transition: opacity .5s !important;
+	opacity: 0;
+}
+.show{
+	transition: opacity .5s !important;
+	opacity: 1;
+}
+.logo{
+	width: 80%;
+}
+.jumbotron{
+
+	height: 100vh;
+	width: 100%;
+	display: table;
+	margin-bottom: 0;
+	background: -webkit-linear-gradient(left, #5083bb 0%, #A5C3E4 100%) #779ECB;
+	background: -moz-linear-gradient(left, #5083bb 0%, #A5C3E4 100%) #779ECB;
+	background: -ms-linear-gradient(left, #5083bb 0%, #A5C3E4 100%) #779ECB;
+	background: linear-gradient(to right, #5083bb 0%, #A5C3E4 100%) #779ECB;
+	color: white;
+	-moz-box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
+	box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
+	transition: height 1s;
+	
+}
+.heading{
+	display: table-cell;
+	vertical-align: middle;
+}
+.btn{
+	background-color: #FFE58C;
+	color: rgba(0, 0, 0, 0.56);
+	-moz-box-shadow: 7px 7px 13px rgba(109, 109, 109, 0.54);
+	box-shadow: 7px 7px 13px rgba(109, 109, 109, 0.54);
+	transition: box-shadow .2s, -moz-box-shadow .5s;
+}
+.btn:hover{
+	-moz-box-shadow: 10px 10px 20px rgba(64, 64, 64, 0.42);
+	box-shadow: 10px 10px 20px rgba(64, 64, 64, 0.42);
+}
+.btn:active{
+	-moz-box-shadow: 5px 5px 20px rgba(64, 64, 64, 0.42);
+	box-shadow: 5px 5px 20px rgba(64, 64, 64, 0.42);
+	background-color: #ffe386;
+}
+.port div{
+	height: 300px;
+	border: 1px solid #333;
+	border-top: none;
+}
+.row{
+	border: 1px solid #333;
+}
+.services{
+	height: 500px;
+}
+.contact{
+	height: 500px;
+}
+.testimonials{
+	height: 500px;
+}
+
+.footer-div {
+	background-color: black; 
+	color: white;
+}
+
+@media (max-width: 800px) {
+	.logo{
+		width: 100%;
+	}
+	.jumbotron h2{
+		font-size: 1.5em;
+		font-weight: 300;
+	}
+	.jumbotron h4{
+		font-size: 1.2em;
+	}
+}
+
+
