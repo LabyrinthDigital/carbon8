@@ -122,9 +122,7 @@ body, p, h1, h2, h3, h4, h5{
 }
 
 @media (max-width: 800px) {
-.eight, .six{
-	margin-top: 15px;
-}
+
 	.logo{
 		width: 100%;
 	}
@@ -135,8 +133,9 @@ body, p, h1, h2, h3, h4, h5{
 	.jumbotron h4{
 		font-size: 1.2em;
 	}
-	.port div{
-		margin-top: -20px !important;
+	
+	.eight, .six{
+		margin-top: 20px !important;
 	}
 }
 
