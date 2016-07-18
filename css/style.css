@@ -13,7 +13,6 @@ body, p, h1, h2, h3, h4, h5{
 	width: 80%;
 }
 .jumbotron{
-
 	height: 100vh;
 	width: 100%;
 	display: table;
@@ -26,6 +25,7 @@ body, p, h1, h2, h3, h4, h5{
 	-moz-box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
 	box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
 	transition: height 1s;
+	z-index: 1000!important;
 	
 }
 .heading{
@@ -35,8 +35,8 @@ body, p, h1, h2, h3, h4, h5{
 .btn{
 	background-color: #FFE58C;
 	color: rgba(0, 0, 0, 0.56);
-	-moz-box-shadow: 7px 7px 13px rgba(52, 52, 52, 0.85);
-	box-shadow: 7px 7px 13px rgba(52, 52, 52, 0.85);
+	-moz-box-shadow: 7px 7px 13px rgba(67, 67, 67, 0.54);
+	box-shadow: 7px 7px 13px rgba(67, 67, 67, 0.54);
 	transition: box-shadow .2s, -moz-box-shadow .5s;
 }
 .btn:hover{
@@ -44,17 +44,67 @@ body, p, h1, h2, h3, h4, h5{
 	box-shadow: 10px 10px 20px rgba(64, 64, 64, 0.42);
 }
 .btn:active{
-	-moz-box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.72);
-	box-shadow: 5px 5px 20px rgba(25, 25, 25, 0.72);
-	background-color: #ffe386;
+	-moz-box-shadow: 5px 5px 20px rgba(64, 64, 64, 0.42);
+	box-shadow: 5px 5px 20px rgba(64, 64, 64, 0.42);
+	background-color: #fee078;
 }
 .port div{
 	height: 300px;
-	border: 1px solid #333;
-	border-top: none;
 }
+.port a{
+	transition: opacity .5s;
+}
+.port a:hover{
+	
+	opacity: .6;
+}
+.portimg{
+	height: 100%;
+}
+.two{
+	background-color: #8d8372;
+}
+.three{
+	background-color: black;
+}
+.four{
+	background-color: #d50f0e;
+}
+.seven{
+	background-color: #1b1c1e;
+}
+
+/***.one{
+	
+	
+}
+.two{
+	background-image: url(../img/impactlogo.jpg);
+	background-size: cover;
+}
+.three{
+	background-image: url(../img/broadlogo.png);
+	background-size: cover;
+	background-color: black;
+}
+.four{
+	background-image: url(../img/wellthenlogo.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.five{
+	background-image: url(../img/nasunilogo.png);
+	background-size: cover;
+}
+.seven{
+	background-image: url(../img/eldarion.png);
+	background-size: cover;
+	background-position: center;
+	margin: 0 !important;
+}
+**/
+
 .row{
-	border: 1px solid #333;
 }
 .services{
 	height: 500px;
@@ -72,6 +122,9 @@ body, p, h1, h2, h3, h4, h5{
 }
 
 @media (max-width: 800px) {
+.eight, .six{
+	margin-top: 15px;
+}
 	.logo{
 		width: 100%;
 	}
@@ -82,4 +135,9 @@ body, p, h1, h2, h3, h4, h5{
 	.jumbotron h4{
 		font-size: 1.2em;
 	}
+	.port div{
+		margin-top: -20px !important;
+	}
 }
+
+
