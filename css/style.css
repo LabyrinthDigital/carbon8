@@ -1,6 +1,7 @@
 body, p, h1, h2, h3, h4, h5{
 	font-weight: 300 !important;
 }
+
 .hide{
 	transition: opacity .5s !important;
 	opacity: 0;
@@ -17,16 +18,16 @@ body, p, h1, h2, h3, h4, h5{
 	width: 100%;
 	display: table;
 	margin-bottom: 0;
-	background: -webkit-linear-gradient(left, #6B7550 40%, #E5E1C2 125%) #6B7550;
-	background: -moz-linear-gradient(left, #6B7550 40%, #E5E1C2 125%) #6B7550;
-	background: -ms-linear-gradient(left, #6B7550 40%, #E5E1C2 125%) #6B7550;
-	background: linear-gradient(to right, #6B7550 40%, #E5E1C2 125%) #6B7550;
+	background: -webkit-linear-gradient(left, #5f6747 40%, #d4d0b4 125%) #6B7550;
+	background: -moz-linear-gradient(left, #5f6747 40%, #d4d0b4 125%) #6B7550;
+	background: -ms-linear-gradient(left, #5f6747 40%, #d4d0b4 125%) #6B7550;
+	background: linear-gradient(to right, #5f6747 40%, #d4d0b4 125%) #6B7550;
 	color: white;
 	-moz-box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
 	box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
-	transition: height 1s;
-	z-index: 1000!important;
-	
+	transition: height 1.5s;
+	z-index: 1000 !important;
+
 }
 .heading{
 	display: table-cell;
@@ -55,7 +56,7 @@ body, p, h1, h2, h3, h4, h5{
 	transition: opacity .5s;
 }
 .port a:hover{
-	
+
 	opacity: .6;
 }
 .portimg{
@@ -74,35 +75,7 @@ body, p, h1, h2, h3, h4, h5{
 	background-color: #1b1c1e;
 }
 
-/***.one{
-	
-	
-}
-.two{
-	background-image: url(../img/impactlogo.jpg);
-	background-size: cover;
-}
-.three{
-	background-image: url(../img/broadlogo.png);
-	background-size: cover;
-	background-color: black;
-}
-.four{
-	background-image: url(../img/wellthenlogo.png);
-	background-size: cover;
-	background-position: bottom;
-}
-.five{
-	background-image: url(../img/nasunilogo.png);
-	background-size: cover;
-}
-.seven{
-	background-image: url(../img/eldarion.png);
-	background-size: cover;
-	background-position: center;
-	margin: 0 !important;
-}
-**/
+
 
 .row{
 }
@@ -112,12 +85,13 @@ body, p, h1, h2, h3, h4, h5{
 .contact{
 	height: 500px;
 }
-.testimonials{
-	height: 500px;
+.testi{
+	padding-bottom: 2em;
+
 }
 
 .footer-div {
-	background-color: black; 
+	background-color: black;
 	color: white;
 }
 
@@ -125,14 +99,10 @@ body, p, h1, h2, h3, h4, h5{
 	margin-top: 50px;
 }
 
-.services {
-	background-color: blue;
-}
+
 
 @media (max-width: 800px) {
-.eight, .six{
-	margin-top: 15px;
-}
+	
 	.logo{
 		width: 100%;
 	}
@@ -143,9 +113,14 @@ body, p, h1, h2, h3, h4, h5{
 	.jumbotron h4{
 		font-size: 1.2em;
 	}
-	.port div{
-		margin-top: -20px !important;
+
+	.eight, .six{
+		margin-top: 20px !important;
 	}
 }
-
-
+@media (max-width: 690px) {
+	.testi{
+		border-bottom: 1px solid rgba(0, 0, 0, 0.43);
+		margin-bottom: 3em;
+	}
+}
