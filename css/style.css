@@ -1,6 +1,7 @@
 body, p, h1, h2, h3, h4, h5{
 	font-weight: 300 !important;
 }
+
 .hide{
 	transition: opacity .5s !important;
 	opacity: 0;
@@ -24,9 +25,9 @@ body, p, h1, h2, h3, h4, h5{
 	color: white;
 	-moz-box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
 	box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
-	transition: height 1s;
-	z-index: 1000!important;
-	
+	transition: height 1.5s;
+	z-index: 1000 !important;
+
 }
 .heading{
 	display: table-cell;
@@ -55,7 +56,7 @@ body, p, h1, h2, h3, h4, h5{
 	transition: opacity .5s;
 }
 .port a:hover{
-	
+
 	opacity: .6;
 }
 .portimg{
@@ -89,7 +90,7 @@ body, p, h1, h2, h3, h4, h5{
 }
 
 .footer-div {
-	background-color: black; 
+	background-color: black;
 	color: white;
 }
 
@@ -113,10 +114,8 @@ body, p, h1, h2, h3, h4, h5{
 	.jumbotron h4{
 		font-size: 1.2em;
 	}
-	
+
 	.eight, .six{
 		margin-top: 20px !important;
 	}
 }
-
-
