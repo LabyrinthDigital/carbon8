@@ -108,7 +108,8 @@ h2 {
 }
 
 .footer-div {
-	background: linear-gradient(to right, #5f6747 40%, #d4d0b4 125%) #6B7550;
+	background-color: #153351;
+	opacity: .95;
 	color: white;
 }
 
