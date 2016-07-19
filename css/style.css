@@ -1,5 +1,6 @@
 body, p, h1, h2, h3, h4, h5{
 	font-weight: 300 !important;
+	font-family: 'open sans', sans-serif !important;
 }
 
 .hide{
