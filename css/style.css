@@ -61,7 +61,7 @@ body, p, h1, h2, h3, h4, h5, .btn{
 	
 }
 .portimg{
-	height: 100%;
+	height: 95%;
 	opacity: .55;
 	transition: opacity .5s;
 }
@@ -159,12 +159,7 @@ h2 {
 	margin-top: 10px;
 }
 
-@media (min-width: 992px) {
-	.portimg{
-		width: 100%;
-		height: auto;
-	}
-}
+
 @media (max-width: 800px) {
 	
 	.logo{
