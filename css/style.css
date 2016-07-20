@@ -1,5 +1,9 @@
-body, p, h1, h2, h3, h4, h5{
+body, p, h1, h2, h3, h4, h5, .btn{
 	font-weight: 300 !important;
+	font-family: 'open sans', sans-serif !important;
+}
+.btn{
+	font-weight: 400 !important;
 }
 
 .hide{
@@ -92,12 +96,29 @@ body, p, h1, h2, h3, h4, h5{
 }
 
 h2 {
-	font-weight: 700;
+	font-weight: 400 !important;
+	font-size: 2.5em;
+	
+}
+.head{
+	padding: 20px;
 }
 
 .contact {
-	height: 500px;
+	padding: 2em 0 4.9em 0;
 	
+}
+.contact h2{
+	padding-bottom: .5em;
+}
+.con{
+	color: white;
+	opacity: .8;
+	padding: 0 1.5em;
+}
+.con:hover{
+	color: white;
+	opacity: 1;
 }
 .testi {
 	padding-bottom: 2em;
@@ -108,12 +129,13 @@ h2 {
 }
 
 .footer-div {
-	background: linear-gradient(to right, #5f6747 40%, #d4d0b4 125%) #6B7550;
+	background-color: #112b45;
+	opacity: .95;
 	color: white;
 }
 
 .btn {
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 
@@ -136,6 +158,10 @@ h2 {
 	}
 }
 @media (max-width: 690px) {
+	.con{
+		display: block;
+		padding: 20px;
+	}
 	.testi{
 		border-bottom: 1px solid rgba(0, 0, 0, 0.43);
 		margin-bottom: 3em;
