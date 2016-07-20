@@ -55,16 +55,20 @@ body, p, h1, h2, h3, h4, h5, .btn{
 }
 .port div{
 	height: 300px;
+	overflow-x: hidden;
 }
-
+.portdiv{
+	
+}
 .portimg{
 	height: 100%;
-	opacity: .5;
+	opacity: .55;
+	transition: opacity .5s;
 }
 
 .portimg:hover {
 	opacity: 1.0;
-	transition: opacity 1s;
+	transition: opacity .5s;
 }
 
 .two{
@@ -155,7 +159,12 @@ h2 {
 	margin-top: 10px;
 }
 
-
+@media (min-width: 992px) {
+	.portimg{
+		width: 100%;
+		height: auto;
+	}
+}
 @media (max-width: 800px) {
 	
 	.logo{
