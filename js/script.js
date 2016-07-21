@@ -1,13 +1,18 @@
 $(function() {
-    //caches a jQuery object containing the header element
-    var header = $("nav");
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 120) {
-            header.removeClass('hide').addClass("show");
-        } else {
-            header.removeClass("show").addClass('hide');
-        }
-    });
+
+
+$(window).on('scroll', function() {
+    scrollPosition = $(this).scrollTop();
+    if (scrollPosition >= 300) {
+		$('#top').removeClass('hide');
+    }else {
+      	$('#top').addClass('hide');
+    }
+});
+
+  $('#top').click(function() {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+  });
   
+
 });
