@@ -84,7 +84,7 @@ body, p, h1, h2, h3, h4, h5, .btn{
 }
 
 .two{
-	background-color: #6D4C41;
+	background-color: #90A4AE;
 }
 .three{
 	background-color: black;
@@ -110,9 +110,28 @@ body, p, h1, h2, h3, h4, h5, .btn{
 }
 
 .services {
-	background-color: #53413c;
+	background-color: #90A4AE;
+	opacity: .95;
 	color: white;
 	padding: 10px 0;
+}
+
+.anchor,
+.anchor:hover,
+.anchor:active,
+.anchor:visited {
+	text-decoration: none; 
+	color: white;
+}
+
+.eagle {
+	border-radius: 20px;
+	box-shadow: 3px 3px 2px gray;
+}
+
+.anchor:hover {
+	opacity: .7;
+	transition: opacity 1s;
 }
 
 .services h2 {
@@ -158,10 +177,12 @@ h2 {
 
 .testimonials {
 	background: linear-gradient(to left, #F0F5F2 40%, white 125%) #F0F5F2;
+	color: #9e9e9e;
 }
 
 .testimonials h2 {
-	color: #101125;
+	color: #0d2238;
+	font-weight: 900;
 }
 
 .footer-div {
@@ -176,6 +197,10 @@ h2 {
 
 .btn {
 	margin-top: 10px;
+}
+
+#ital {
+	font-style: italic;
 }
 
 
