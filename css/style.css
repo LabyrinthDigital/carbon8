@@ -1,4 +1,6 @@
-
+.services img{
+	width: 80%;
+}
 body, p, h1, h2, h3, h4, h5, .btn{
 	font-weight: 300 !important;
 	font-family: 'open sans', sans-serif !important;
@@ -43,7 +45,7 @@ body, p, h1, h2, h3, h4, h5, .btn{
 	vertical-align: middle;
 }
 .btn{
-	background-color: #fefaed;
+	background-color: #F0F5F2;
 	color: #2f5e50;
 	-moz-box-shadow: 7px 7px 13px rgba(67, 67, 67, 0.54);
 	box-shadow: 7px 7px 13px rgba(67, 67, 67, 0.54);
@@ -108,7 +110,7 @@ body, p, h1, h2, h3, h4, h5, .btn{
 }
 
 .services {
-	background-color: #101125;
+	background-color: #53413c;
 	color: white;
 	padding: 10px 0;
 }
@@ -163,7 +165,7 @@ h2 {
 }
 
 .footer-div {
-	background-color: #070819;
+	background-color: #0d2238;
 	opacity: .95;
 	color: white;
 }
