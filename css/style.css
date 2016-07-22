@@ -104,6 +104,12 @@ body, p, h1, h2, h3, h4, h5, .btn{
 	font-family: "open-sans";
 }
 
+.fancybox-title .child {
+    font-family: "open sans", sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5em;
+    background: transparent !important;
+}
 .services {
 	background-color: #667e8b;
 	opacity: .95;

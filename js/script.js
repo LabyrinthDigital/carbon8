@@ -1,5 +1,24 @@
 $(function() {
 
+$(".fancybox").fancybox({
+
+	beforeShow : function() {
+	       var alt = this.element.find('img').attr('alt');
+	       
+	       this.inner.find('img').attr('alt', alt);
+	       
+	       this.title = alt;
+	   },
+	   
+    helpers : {
+            overlay : {
+                css : {
+                    'background' : 'rgba(0, 0, 0, 0.85)'
+                }
+            }
+        }
+});
+
 
 $(window).on('scroll', function() {
     scrollPosition = $(this).scrollTop();
