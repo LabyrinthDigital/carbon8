@@ -26,10 +26,13 @@ body, p, h1, h2, h3, h4, h5, .btn{
 	display: table;
 	margin-bottom: 0;
 	
-	background: -webkit-linear-gradient(left, #5f6747 40%, #d4d0b4 125%) #6B7550;
-	background: -moz-linear-gradient(left, #5f6747 40%, #d4d0b4 125%) #6B7550;
-	background: -ms-linear-gradient(left, #5f6747 40%, #d4d0b4 125%) #6B7550;
-	background: linear-gradient(to right, #5f6747 40%, #d4d0b4 125%) #6B7550;
+	
+	background: -webkit-linear-gradient(right, #16222A 0%, #2f5e50 100%) #16222A;
+	background: linear-gradient(to left, #16222A 0%, #2f5e50 100%) #16222A;
+												/* fallback for old browsers */
+	 /* Chrome 10-25, Safari 5.1-6 */
+	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	        
 	color: white;
 	-moz-box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
 	box-shadow: 0 10px 15px rgba(83, 83, 83, 0.52);
@@ -81,7 +84,7 @@ body, p, h1, h2, h3, h4, h5, .btn{
 }
 
 .two{
-	background-color: #784f41;
+	background-color: #90A4AE;
 }
 .three{
 	background-color: black;
@@ -107,7 +110,7 @@ body, p, h1, h2, h3, h4, h5, .btn{
 }
 
 .services {
-	background-color: #728c98;
+	background-color: #90A4AE;
 	opacity: .95;
 	color: white;
 	padding: 10px 0;
@@ -144,7 +147,6 @@ body, p, h1, h2, h3, h4, h5, .btn{
 h2 {
 	font-weight: 400 !important;
 	font-size: 3em;
-	font-family: 'Patua One', sans-serif !important;
 }
 .head{
 	padding: 20px 0;
@@ -179,7 +181,7 @@ h2 {
 }
 
 .testimonials h2 {
-	color: #777;
+	color: #0d2238;
 	font-weight: 900;
 }
 
